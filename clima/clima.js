@@ -14,7 +14,7 @@ let getClima = async (lat, lng) => {
 
   let temp = resp.data.main.temp;
 
-  return resp.data;
+  return temp;
 };
 
 module.exports = {
